@@ -1,21 +1,52 @@
-MIT License
+# VideoCutterAI License
 
-Copyright (c) 2026 LvkLinus
+Copyright (c) 2026 Linus Rach. Alle Rechte vorbehalten.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 1. Eigentum
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Die Software **VideoCutterAI** einschließlich des gesamten Quellcodes, der Dokumentation, Grafiken, Designs und aller weiteren Bestandteile ist urheberrechtlich geschützt.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 2. Erlaubte Nutzung
+
+Es ist gestattet,
+
+* den Quellcode einzusehen,
+* die Software ausschließlich privat und nicht kommerziell zu nutzen,
+* unveränderte Kopien der Originalversion weiterzugeben, sofern diese Lizenz vollständig erhalten bleibt.
+
+## 3. Verbotene Handlungen
+
+Ohne vorherige ausdrückliche schriftliche Genehmigung des Urhebers ist insbesondere untersagt:
+
+* den Quellcode oder Teile davon zu verändern, zu bearbeiten oder anderweitig zu modifizieren,
+* abgeleitete Werke auf Grundlage dieser Software zu erstellen,
+* Teile des Quellcodes in anderen Projekten zu verwenden,
+* Copyright- oder Lizenzhinweise zu entfernen,
+* die Software oder Teile davon zu verkaufen, zu vermieten oder anderweitig zu vertreiben,
+* die Software kommerziell zu nutzen.
+
+## 4. Kommerzielle Nutzung
+
+Jede kommerzielle Nutzung bedarf einer vorherigen schriftlichen Genehmigung des Urhebers.
+
+Der Urheber kann nach eigenem Ermessen individuelle kommerzielle Lizenzen vergeben. Diese können unter anderem eine Umsatzbeteiligung (z. B. 25 % der mit der Software erzielten Umsätze), eine Einmalzahlung oder andere Lizenzbedingungen vorsehen.
+
+Ohne eine schriftliche Lizenzvereinbarung ist jede kommerzielle Nutzung ausdrücklich untersagt.
+
+## 5. Gewährleistung
+
+Die Software wird "wie besehen" ("AS IS") bereitgestellt. Der Urheber übernimmt keinerlei Gewährleistung für Fehlerfreiheit, Verfügbarkeit oder die Eignung für einen bestimmten Zweck.
+
+## 6. Haftung
+
+Soweit gesetzlich zulässig, haftet der Urheber nicht für direkte, indirekte oder Folgeschäden, die aus der Nutzung oder der Unmöglichkeit der Nutzung dieser Software entstehen.
+
+## 7. Kontakt
+
+Fragen zu dieser Lizenz, Anfragen zur kommerziellen Nutzung oder Lizenzvereinbarungen können an folgende E-Mail-Adresse gerichtet werden:
+
+**[businesslvkeu@gmail.com](mailto:businesslvkeu@gmail.com)**
+
+---
+
+© 2026 Linus Rach. Alle Rechte vorbehalten.

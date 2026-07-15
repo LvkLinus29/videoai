@@ -1,0 +1,3 @@
+file '/media/linus/TOSHIBA MQ4/videocutterai/output/jobs/590e742e7f3a480daacd501329fe730a/input/photo.png'
+duration 1.044898
+file '/media/linus/TOSHIBA MQ4/videocutterai/output/jobs/590e742e7f3a480daacd501329fe730a/input/photo.png'

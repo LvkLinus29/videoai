@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VideoCutterAI</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <h1>VideoCutterAI</h1>
+            <p>Fotos und Audio zu einem Video rendern</p>
+          </div>
+          <nav class="menu" aria-label="Hauptmenü">
+            <button id="settingsButton" class="secondary" type="button">Einstellungen</button>
+            <button id="aboutButton" class="secondary" type="button">Über</button>
+            <button id="renderButton" class="primary" type="button">Video erstellen</button>
+          </nav>
+        </header>
+
+        <div class="grid">
+          <section class="panel">
+            <h2>Fotos</h2>
+            <label id="imageDrop" class="dropzone">
+              <input id="imageInput" type="file" accept="image/*" multiple />
+              <span>Dateien hier ablegen oder auswählen</span>
+            </label>
+            <div id="imageList" class="thumb-grid" aria-live="polite"></div>
+          </section>
+
+          <section class="panel">
+            <h2>Audio</h2>
+            <label id="audioDrop" class="dropzone compact">
+              <input id="audioInput" type="file" accept="audio/*" />
+              <span>Audiodatei ablegen oder auswählen</span>
+            </label>
+            <div id="audioName" class="audio-name">Keine Audiodatei gewählt</div>
+            <audio id="audioPlayer" class="media-player hidden" controls></audio>
+
+            <div class="settings">
+              <label>
+                Ausgabeformat
+                <select id="format">
+                  <option value="mp4">MP4</option>
+                  <option value="webm">WebM</option>
+                  <option value="mkv">MKV</option>
+                  <option value="mov">MOV</option>
+                </select>
+              </label>
+              <label>
+                Auflösung
+                <select id="resolution">
+                  <option value="1920:1080">1920 x 1080</option>
+                  <option value="1280:720">1280 x 720</option>
+                  <option value="1080:1080">1080 x 1080</option>
+                  <option value="1080:1920">1080 x 1920</option>
+                </select>
+              </label>
+              <label>
+                FPS
+                <input id="fps" type="number" min="1" max="60" value="30" />
+              </label>
+              <label>
+                Sekunden pro Foto
+                <input id="seconds" type="number" min="0.1" step="0.1" placeholder="Automatisch" />
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <section id="previewPanel" class="panel preview-panel hidden">
+          <h2>Vorschau</h2>
+          <video id="videoPreview" class="media-player" controls></video>
+        </section>
+
+        <footer class="statusbar">
+          <div class="status-copy">
+            <div id="status">Bereit</div>
+            <div id="renderTime" class="render-time"></div>
+            <div class="progress-shell">
+              <div id="progressBar" class="progress-bar"></div>
+            </div>
+          </div>
+          <a id="downloadLink" class="download hidden" href="#">Video herunterladen</a>
+        </footer>
+      </section>
+    </main>
+
+    <div id="settingsModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+      <div class="modal-panel">
+        <header class="modal-header">
+          <h2 id="settingsTitle">Einstellungen</h2>
+          <button class="icon-button" data-close-modal type="button" title="Schließen">×</button>
+        </header>
+        <div class="settings modal-settings">
+          <label>
+            Design
+            <select id="settingTheme">
+              <option value="dark">Dunkel</option>
+              <option value="light">Hell</option>
+            </select>
+          </label>
+          <label>
+            Sprache
+            <select id="settingLanguage">
+              <option value="de">Deutsch</option>
+              <option value="en">English</option>
+            </select>
+          </label>
+          <label>
+            Standardformat
+            <select id="settingFormat">
+              <option value="mp4">MP4</option>
+              <option value="webm">WebM</option>
+              <option value="mkv">MKV</option>
+              <option value="mov">MOV</option>
+            </select>
+          </label>
+          <label>
+            Standardauflösung
+            <select id="settingResolution">
+              <option value="1920:1080">1920 x 1080</option>
+              <option value="1280:720">1280 x 720</option>
+              <option value="1080:1080">1080 x 1080</option>
+              <option value="1080:1920">1080 x 1920</option>
+            </select>
+          </label>
+          <label>
+            Standard-FPS
+            <input id="settingFps" type="number" min="1" max="60" value="30" />
+          </label>
+          <label>
+            FFmpeg-Pfad
+            <input id="settingFfmpeg" type="text" placeholder="/usr/bin/ffmpeg" />
+          </label>
+          <label class="wide">
+            Standardspeicherort
+            <input id="settingOutputDir" type="text" placeholder="Projektordner verwenden" />
+          </label>
+        </div>
+        <footer class="modal-actions">
+          <button class="secondary" data-close-modal type="button">Abbrechen</button>
+          <button id="saveSettingsButton" class="primary" type="button">Speichern</button>
+        </footer>
+      </div>
+    </div>
+
+    <div id="aboutModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+      <div class="modal-panel small">
+        <header class="modal-header">
+          <h2 id="aboutTitle">Über VideoCutterAI</h2>
+          <button class="icon-button" data-close-modal type="button" title="Schließen">×</button>
+        </header>
+        <p>Version <span id="appVersion">0.2.0</span></p>
+        <p>Lokale Linux-App zum Rendern von Foto-Audio-Videos mit FFmpeg.</p>
+      </div>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

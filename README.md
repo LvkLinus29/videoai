@@ -1,2 +1,52 @@
-# videoai
-fotos and audio to video
+# VideoCutterAI License
+
+Copyright (c) 2026 Linus Rach. Alle Rechte vorbehalten.
+
+## 1. Eigentum
+
+Die Software **VideoCutterAI** einschließlich des gesamten Quellcodes, der Dokumentation, Grafiken, Designs und aller weiteren Bestandteile ist urheberrechtlich geschützt.
+
+## 2. Erlaubte Nutzung
+
+Es ist gestattet,
+
+* den Quellcode einzusehen,
+* die Software ausschließlich privat und nicht kommerziell zu nutzen,
+* unveränderte Kopien der Originalversion weiterzugeben, sofern diese Lizenz vollständig erhalten bleibt.
+
+## 3. Verbotene Handlungen
+
+Ohne vorherige ausdrückliche schriftliche Genehmigung des Urhebers ist insbesondere untersagt:
+
+* den Quellcode oder Teile davon zu verändern, zu bearbeiten oder anderweitig zu modifizieren,
+* abgeleitete Werke auf Grundlage dieser Software zu erstellen,
+* Teile des Quellcodes in anderen Projekten zu verwenden,
+* Copyright- oder Lizenzhinweise zu entfernen,
+* die Software oder Teile davon zu verkaufen, zu vermieten oder anderweitig zu vertreiben,
+* die Software kommerziell zu nutzen.
+
+## 4. Kommerzielle Nutzung
+
+Jede kommerzielle Nutzung bedarf einer vorherigen schriftlichen Genehmigung des Urhebers.
+
+Der Urheber kann nach eigenem Ermessen individuelle kommerzielle Lizenzen vergeben. Diese können unter anderem eine Umsatzbeteiligung (z. B. 25 % der mit der Software erzielten Umsätze), eine Einmalzahlung oder andere Lizenzbedingungen vorsehen.
+
+Ohne eine schriftliche Lizenzvereinbarung ist jede kommerzielle Nutzung ausdrücklich untersagt.
+
+## 5. Gewährleistung
+
+Die Software wird "wie besehen" ("AS IS") bereitgestellt. Der Urheber übernimmt keinerlei Gewährleistung für Fehlerfreiheit, Verfügbarkeit oder die Eignung für einen bestimmten Zweck.
+
+## 6. Haftung
+
+Soweit gesetzlich zulässig, haftet der Urheber nicht für direkte, indirekte oder Folgeschäden, die aus der Nutzung oder der Unmöglichkeit der Nutzung dieser Software entstehen.
+
+## 7. Kontakt
+
+Fragen zu dieser Lizenz, Anfragen zur kommerziellen Nutzung oder Lizenzvereinbarungen können an folgende E-Mail-Adresse gerichtet werden:
+
+**[businesslvkeu@gmail.com](mailto:businesslvkeu@gmail.com)**
+
+---
+
+© 2026 Linus Rach. Alle Rechte vorbehalten.

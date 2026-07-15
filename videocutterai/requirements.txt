@@ -1,2 +1,0 @@
-# Keine Python-Pakete erforderlich.
-# System-Abhaengigkeit: ffmpeg mit ffprobe

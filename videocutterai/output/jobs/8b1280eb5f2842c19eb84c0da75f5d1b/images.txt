@@ -1,3 +1,0 @@
-file '/media/linus/TOSHIBA MQ4/videocutterai/output/jobs/8b1280eb5f2842c19eb84c0da75f5d1b/input/photo.png'
-duration 1.044898
-file '/media/linus/TOSHIBA MQ4/videocutterai/output/jobs/8b1280eb5f2842c19eb84c0da75f5d1b/input/photo.png'
